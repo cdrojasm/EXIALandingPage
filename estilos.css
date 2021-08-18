@@ -1,28 +1,62 @@
+/*
+Estilos para los contenedores generales y para todo el body
+*/
+
 *{
     font-family: Latto, sans-serif;
 }
 
-.container-header{
-    display: block;
+.content{
+    display: grid;
+    grid-template-rows: repeat(8, minmax(20px,1fr));
+}
+
+.Header{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    background-color: #FFF;
+}
+.Seccion1{
+}
+.Seccion2{
+}
+.Seccion3{
+}
+.Seccion4{
+}
+.Seccion5{
+}
+.Seccion6{
+}
+.Footer{
+}
+
+/* ----------------------------------------------------*/
+/* ----------------------------------------------------*/
+/* --------------Estilos Header -----------------*/
+/* ----------------------------------------------------*/
+/* ----------------------------------------------------*/
+
+
+.Header__Logo{
+    
+}
+
+.Header__Nav{
+    
+}
+
+.Header__SocialNetWork{
+    
 }
 
 header {
     color: #FFF;
     height: 100px;
 }
-.Header__Logo{
-    float: left;
-    width: 215px;
-    margin: 30px 0 30px 50px;
-}
-
-.nav{
-    float: right;
-    width: 75vw;   
-}
-
-.nav__container-link{
-    float: left;
+.Header__Logo-Style{
+    width: 200px;
+    margin: 50px 0 50px 50px;
 }
 
 .nav__ul{
