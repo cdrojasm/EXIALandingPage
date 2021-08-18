@@ -1,0 +1,456 @@
+*{
+    font-family: Latto, sans-serif;
+}
+
+.container-header{
+    display: block;
+}
+
+header {
+    color: #FFF;
+    height: 100px;
+}
+.Header__Logo{
+    float: left;
+    width: 215px;
+    margin: 30px 0 30px 50px;
+}
+
+.nav{
+    float: right;
+    width: 75vw;   
+}
+
+.nav__container-link{
+    float: left;
+}
+
+.nav__ul{
+    margin: 52px 0;
+}
+
+.nav_li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.nav_li a{
+    text-decoration: none;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    color: #14274E;
+    font-size: 25px;
+}
+
+.nav__container-sm{
+    float: right;
+    padding: 35px 0;
+}
+
+.nav__ul-sm{
+    padding: 0 40px 0 0;
+}
+
+.nav_li_ico{
+    color: #14274E;
+    font-size: 30px;
+    padding: 10px 5px;
+}
+
+/* ----------------------------------------------------*/
+/* ----------------------------------------------------*/
+/* --------------Estilos de subheader -----------------*/
+/* ----------------------------------------------------*/
+/* ----------------------------------------------------*/
+
+
+
+.subheader__container{
+    background-image: url(img/IM9.jpg);
+    width: 100%;
+    background-position: center;
+    display: inline-block;
+
+}
+.subheader__Titulo1{
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 55px;
+}
+
+.subheader__Titulo1 p{
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.subheader__Titulo2{
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 50px;
+}
+
+.subheader__Titulo2 p{
+    color: #FFF;
+    font-size: 27px;
+    font-weight: 800;
+}
+
+.subheader__Button{
+    background-color: #A2AEBB;
+    font-size: 27px;
+    text-align: center;
+    padding: 25px;
+    border: none;
+
+}
+
+.subheader__button-container{
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    
+}
+/* ----------------------------------------------------*/
+/* ----------------------------------------------------*/
+/* --------------Estilos Seccion 1 --------------------*/
+/* ----------------------------------------------------*/
+/* ----------------------------------------------------*/
+
+.Seccion1__container{
+    background-color: #14274E;
+}
+.Seccion1__CajasTecnologias{
+    max-height: 1100px;
+    height: 1050px;
+}
+
+.Seccion1__Titulo1{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.Seccion1__Titulo2{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.Seccion1__CajasTecnologias-CajaSolar{
+    background-color: #14274E;
+    width: 50%;
+    float: left;
+    max-height: 1100px;
+    height: 1050px;
+    text-align: center;
+}
+
+.Seccion1__CajasTecnologias-CajaSolar-Foto img{
+    width: 450px;
+    padding-top: 50px;
+}
+
+.Seccion1__CajasTecnologias-CajaSolar-Texto{
+    position: relative;
+    max-width: 35%;
+    min-width: 60%;
+    background-color: #FFF;
+    top: -150px;
+    left: 40%;
+}
+
+.Seccion1__CajasTecnologias-CajaSolar-Texto p{
+    color: #14274E;
+    font-size: 20px;
+    padding: 10px 40px;
+    margin: 0;
+    text-align: justify;
+}
+
+.Seccion1__CajasTecnologias-CajaSolar-Texto h1{
+    color: #14274E;
+    font-size: 40px;
+    padding: 10px 40px;
+    margin: 0;
+}
+
+.Seccion1__Button{
+    background-color: black;
+    color: #FFF;
+    font-size: 40px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.Seccion1__Button-container{
+    padding: 15px 0;
+}
+
+/* ----------------------------------------------------*/
+/* ----------------------------------------------------*/
+
+.Seccion1__CajasTecnologias-Electromovilidad{
+    background-color: #14274E;
+    width: 50%;
+    float: left;
+    height: 1050px;
+    text-align: center;
+}
+
+.Seccion1__CajasTecnologias-Electromovilidad-Foto img{
+    width: 450px;
+    padding-top: 50px;
+}
+
+.Seccion1__CajasTecnologias-Electromovilidad-Texto{
+    position: relative;
+    max-width: 55%;
+    background-color: #FFF;
+    top: -150px;
+    left: 40%;
+}
+
+.Seccion1__CajasTecnologias-Electromovilidad-Texto p{
+    color: #14274E;
+    font-size: 20px;
+    padding: 10px 40px;
+    margin: 0;
+    text-align: justify;
+}
+
+.Seccion1__CajasTecnologias-Electromovilidad-Texto h1{
+    color: #14274E;
+    font-size: 40px;
+    padding: 10px 40px;
+    margin: 0;
+}
+
+/* ----------------------------------------------------*/
+/* ----------------------------------------------------*/
+/* ---------------Estilos Seccion 2 -------------------*/
+/* ----------------------------------------------------*/
+/* ----------------------------------------------------*/
+
+.seccion2__container{
+    background-color: #A2AEBB;
+    width: 100%;
+    min-height: 1250px;
+}
+
+.Seccion2__Titulo{
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-top: 100px;
+}
+
+.Seccion2__Titulo p{
+    text-align: center;
+    font-size: 55px;
+    color: #000;
+}
+
+.Seccion2__Blog1{
+    width: 100%;
+    min-height: 600px;
+    padding-top: 100px;
+}
+
+.Seccion2__Blog1-imagen{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.Seccion2__Blog1-imagen img{
+    width: 50%;
+}
+
+.Seccion2__Blog1-texto{
+    float: right;
+    width: 50%;
+}
+
+.Seccion2__Blog1-texto p{
+    width: 45%;
+}
+
+.Seccion2__Blog1-Boton-container{
+    margin-top: 46px;
+    display: block;
+}
+
+
+
+
+.Seccion2__Blog2{
+    width: 100%;
+    min-width: 600px;
+}
+
+.Seccion2__Blog2-imagen{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.Seccion2__Blog2-imagen img{
+    width: 50%;
+}
+
+.Seccion2__Blog2-texto{
+    float: right;
+    width: 50%;
+}
+
+.Seccion2__Blog2-texto p{
+    width: 45%;
+}
+.Seccion2__Blog2-Boton-container{
+    margin-top: 46px;
+    display: block;
+}
+
+
+/* ----------------------------------------------------*/
+/* ----------------------------------------------------*/
+/* Estilos Seccion 3 */
+/* ----------------------------------------------------*/
+/* ----------------------------------------------------*/
+
+.Seccion3__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    grid-gap:10px;
+    grid-auto-rows: 150px;
+    background-color: #000;
+    padding: 10px;
+}
+.Seccion3__container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Seccion3__container img:nth-child(3){
+    grid-row: 1 / 3;
+    grid-column: 3 / 4;
+}
+
+.Seccion3__container img:nth-child(8){
+    grid-row: 2 / 4;
+    grid-column: 4 / 5;
+}
+
+/* ----------------------------------------------------*/
+/* ----------------------------------------------------*/
+/* Estilos Seccion 4 */
+/* ----------------------------------------------------*/
+/* ----------------------------------------------------*/
+
+.seccion4__container{
+    background-color: #A2AEBB;
+    color: #333;
+    width: 100%;
+    height: 680;
+}
+
+.seccion4_imagen{
+    float: left;
+    width: 30%;
+    padding-top: 100px;
+}
+
+.seccion4__lista{
+    float: right;
+    width: 70%;
+    padding-left: 45px;
+    padding-top: 60px;
+    font-size: 30px;
+    line-height: 80px;
+    padding-top: 100px;
+
+}
+
+/* ----------------------------------------------------*/
+/* ----------------------------------------------------*/
+/*      Footer    */
+/* ----------------------------------------------------*/
+/* ----------------------------------------------------*/
+
+.Footer{
+    background-color: #14274E;
+}
+
+.Footer__container{
+    height: 400px;
+}
+
+.Footer__container-text1{
+    float: left;
+    color: #FFF;
+    width: 70%;
+}
+
+.Footer__container-text1 {
+    padding: 40px 0 40px 30%;
+}
+
+.Footer__container-text1 p{
+    color: #FFF;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.Footer__container-text2{
+    color: #FFF;
+    font-size: 30px;
+    padding: 40px 0 100px 0;
+}
+
+.Footer__SocialNetworkIcon-container{
+    float: right;
+    padding: 50px 100px 50px 0;
+}
+
+.Footer__li-SocialNetworkIcon{
+    display: inline-block;
+}
+
+/* ----------------------------------------------------*/
+/* ----------------------------------------------------*/
+/*      Generales    */
+/* ----------------------------------------------------*/
+/* ----------------------------------------------------*/
+.Titulo1 p{
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.Titulo2 p{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.Boton1{
+    border: none;
+    background-color: #000;
+    color: #A2AEBB;
+    font-size: 20px;
+    padding: 27px;
+    font-weight: 200;
+}
+
+.texto2{
+    font-size: 20px;
+    color: #333;
+    line-height: 30px;
+}
+
+.icono_BackGround-Dark{
+    color: #FFF;
+    font-size: 40px;
+    padding: 30px;
+}
