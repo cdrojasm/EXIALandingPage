@@ -8,7 +8,7 @@ Estilos para los contenedores generales y para todo el body
 
 .content{
     display: grid;
-    grid-template-rows: repeat(8, minmax(20px,1fr));
+    grid-template-rows: 150px repeat(7, minmax(20px,1fr));
 }
 
 .Header{
@@ -17,8 +17,13 @@ Estilos para los contenedores generales y para todo el body
     background-color: #FFF;
 }
 .Seccion1{
+    display: grid;
+    grid-template-rows: 200px 70px 150px;
+    background-image: url(img/IM9.jpg);
+    background-position: center;
 }
 .Seccion2{
+    
 }
 .Seccion3{
 }
@@ -33,34 +38,30 @@ Estilos para los contenedores generales y para todo el body
 
 /* ----------------------------------------------------*/
 /* ----------------------------------------------------*/
-/* --------------Estilos Header -----------------*/
+/* --------------Estilos Header -----------------------*/
 /* ----------------------------------------------------*/
 /* ----------------------------------------------------*/
 
 
 .Header__Logo{
-    
+    display: flex;
+    align-items: center;
 }
 
 .Header__Nav{
-    
+    display: flex;
+    align-items: center;
 }
 
 .Header__SocialNetWork{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-header {
-    color: #FFF;
-    height: 100px;
-}
 .Header__Logo-Style{
     width: 200px;
     margin: 50px 0 50px 50px;
-}
-
-.nav__ul{
-    margin: 52px 0;
 }
 
 .nav_li{
@@ -74,11 +75,6 @@ header {
     font-weight: 400;
     color: #14274E;
     font-size: 25px;
-}
-
-.nav__container-sm{
-    float: right;
-    padding: 35px 0;
 }
 
 .nav__ul-sm{
@@ -97,80 +93,66 @@ header {
 /* ----------------------------------------------------*/
 /* ----------------------------------------------------*/
 
-
-
-.subheader__container{
-    background-image: url(img/IM9.jpg);
-    width: 100%;
-    background-position: center;
-    display: inline-block;
-
+.Seccion1__Titulo1{
+    padding: 55px 40px 0 0;
 }
-.subheader__Titulo1{
+
+.Seccion1__Titulo2{
+    padding: 0 40px 0 0;
+}
+
+.Seccion1__button-container{
+    padding: 0 40px 0 0;
     text-align: right;
-    padding-right: 40px;
-    padding-top: 55px;
 }
 
-.subheader__Titulo1 p{
+.Seccion1__Titulo1 p{
     color: #FFF;
-    font-size: 55px;
+    font-size: 75px;
     font-weight: 800;
-}
-
-.subheader__Titulo2{
     text-align: right;
-    padding-right: 40px;
-    padding-top: 50px;
 }
 
-.subheader__Titulo2 p{
+.Seccion1__Titulo2 p{
     color: #FFF;
-    font-size: 27px;
+    font-size: 28px;
     font-weight: 800;
+    text-align: right;
 }
 
-.subheader__Button{
+.Seccion1__Button{
     background-color: #A2AEBB;
     font-size: 27px;
     text-align: center;
     padding: 25px;
     border: none;
-
 }
 
-.subheader__button-container{
-    text-align: right;
-    padding-top: 20px;
-    padding-right: 40px;
-    padding-bottom: 20px;
-    
-}
 /* ----------------------------------------------------*/
 /* ----------------------------------------------------*/
 /* --------------Estilos Seccion 1 --------------------*/
 /* ----------------------------------------------------*/
 /* ----------------------------------------------------*/
 
-.Seccion1__container{
+.Seccion2__container{
     background-color: #14274E;
 }
-.Seccion1__CajasTecnologias{
+.Seccion2__CajasTecnologias{
     max-height: 1100px;
     height: 1050px;
 }
 
-.Seccion1__Titulo1{
+.Seccion2__Titulo1{
     text-align: center;
     padding-top: 60px;
 }
 
-.Seccion1__Titulo2{
+.Seccion2__Titulo2{
     text-align: center;
     padding-top: 60px;
 }
 
-.Seccion1__CajasTecnologias-CajaSolar{
+.Seccion2__CajasTecnologias-CajaSolar{
     background-color: #14274E;
     width: 50%;
     float: left;
@@ -179,12 +161,12 @@ header {
     text-align: center;
 }
 
-.Seccion1__CajasTecnologias-CajaSolar-Foto img{
+.Seccion2__CajasTecnologias-CajaSolar-Foto img{
     width: 450px;
     padding-top: 50px;
 }
 
-.Seccion1__CajasTecnologias-CajaSolar-Texto{
+.Seccion2__CajasTecnologias-CajaSolar-Texto{
     position: relative;
     max-width: 35%;
     min-width: 60%;
@@ -193,7 +175,7 @@ header {
     left: 40%;
 }
 
-.Seccion1__CajasTecnologias-CajaSolar-Texto p{
+.Seccion2__CajasTecnologias-CajaSolar-Texto p{
     color: #14274E;
     font-size: 20px;
     padding: 10px 40px;
@@ -201,14 +183,14 @@ header {
     text-align: justify;
 }
 
-.Seccion1__CajasTecnologias-CajaSolar-Texto h1{
+.Seccion2__CajasTecnologias-CajaSolar-Texto h1{
     color: #14274E;
     font-size: 40px;
     padding: 10px 40px;
     margin: 0;
 }
 
-.Seccion1__Button{
+.Seccion2__Button{
     background-color: black;
     color: #FFF;
     font-size: 40px;
@@ -216,14 +198,14 @@ header {
     padding: 10px 20px;
 }
 
-.Seccion1__Button-container{
+.Seccion2__Button-container{
     padding: 15px 0;
 }
 
 /* ----------------------------------------------------*/
 /* ----------------------------------------------------*/
 
-.Seccion1__CajasTecnologias-Electromovilidad{
+.Seccion2__CajasTecnologias-Electromovilidad{
     background-color: #14274E;
     width: 50%;
     float: left;
@@ -231,12 +213,12 @@ header {
     text-align: center;
 }
 
-.Seccion1__CajasTecnologias-Electromovilidad-Foto img{
+.Seccion2__CajasTecnologias-Electromovilidad-Foto img{
     width: 450px;
     padding-top: 50px;
 }
 
-.Seccion1__CajasTecnologias-Electromovilidad-Texto{
+.Seccion2__CajasTecnologias-Electromovilidad-Texto{
     position: relative;
     max-width: 55%;
     background-color: #FFF;
@@ -244,7 +226,7 @@ header {
     left: 40%;
 }
 
-.Seccion1__CajasTecnologias-Electromovilidad-Texto p{
+.Seccion2__CajasTecnologias-Electromovilidad-Texto p{
     color: #14274E;
     font-size: 20px;
     padding: 10px 40px;
@@ -252,7 +234,7 @@ header {
     text-align: justify;
 }
 
-.Seccion1__CajasTecnologias-Electromovilidad-Texto h1{
+.Seccion2__CajasTecnologias-Electromovilidad-Texto h1{
     color: #14274E;
     font-size: 40px;
     padding: 10px 40px;
