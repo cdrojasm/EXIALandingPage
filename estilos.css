@@ -392,12 +392,14 @@ Estilos para los contenedores generales y para todo el body
     color: #FFF;
     font-size: 55px;
     font-weight: 800;
+    letter-spacing: 4px;
 }
 
 .Titulo2 p{
     color: #FFF;
     font-size: 25px;
     font-weight: 400;
+    letter-spacing: 4px;
 }
 
 .Boton1{
