@@ -3,12 +3,12 @@ Estilos para los contenedores generales y para todo el body
 */
 
 *{
-    font-family: Latto, sans-serif;
+    font-family: 'Encode Sans Semi Condensed', Latto, sans-serif;
 }
 
 .content{
     display: grid;
-    grid-template-rows: 150px repeat(7, minmax(20px,1fr));
+    grid-template-rows: 150px repeat(5, max-content) 400px;
 }
 
 .Header{
@@ -21,6 +21,7 @@ Estilos para los contenedores generales y para todo el body
     grid-template-rows: 200px 70px 150px;
     background-image: url(img/IM9.jpg);
     background-position: center;
+    filter: saturate(130%) contrast(140%) hue-rotate(5deg) ;
 }
 .Seccion2{
     display: grid;
@@ -129,7 +130,7 @@ Estilos para los contenedores generales y para todo el body
 .Seccion1__Titulo1 p{
     color: #FFF;
     font-size: 75px;
-    font-weight: 800;
+    font-weight: 400;
     text-align: right;
 }
 
@@ -198,6 +199,7 @@ Estilos para los contenedores generales y para todo el body
     font-size: 40px;
     padding: 10px 40px;
     margin: 0;
+    font-weight: 500;
 }
 
 .Seccion2__TextContainer p{
@@ -206,7 +208,7 @@ Estilos para los contenedores generales y para todo el body
     padding: 10px 40px;
     text-align: justify;
     line-height: 27px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .Seccion2__TextContainer button{
@@ -322,6 +324,11 @@ Estilos para los contenedores generales y para todo el body
 .Seccion4 img:nth-child(8){
     grid-row: 3 / 5;
     grid-column: 2 / 3;
+}
+
+.Seccion4 img :hover{
+    grid-row: 1 / 5;
+    grid-column: 1 / 4;
 }
 
 /* ----------------------------------------------------*/
